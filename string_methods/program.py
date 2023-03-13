@@ -53,5 +53,5 @@ print(str1.startswith("Python"))
 str1 = "Python is a Interpreted Language" 
 print(str1.swapcase())
 
-str1 = "He's name is Mohammad. He is an honest man."
+str1 = "His name is Mohammad. He is an honest man."
 print(str1.title())
