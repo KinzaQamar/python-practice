@@ -1,12 +1,12 @@
 #Print the alphabets
-name = input("Enter name:")
+name = input("Enter name : ")
 
 for i in name:
     print(i, end = " , ")
 
 #Print the table for any number till the given range
 
-num = int(input("\nEnter an integer:"))
+num = int(input("\n\nEnter an integer:"))
 limit = int(input("Enter limit:"))
 
 for i in range(limit):
