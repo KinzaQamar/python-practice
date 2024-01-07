@@ -7,8 +7,10 @@ def sum(*numbers):
         if (i == len(numbers)):
             break
         else:
-            print(end=",")
+            print(",")
 
-    print ("\nThe sum = ",sum)
+    return sum
 
-sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+sum = sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+ 
+print ("\nThe sum = ",sum)
