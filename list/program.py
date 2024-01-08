@@ -28,3 +28,12 @@ for i in marks:
 
 print("\nThe highest marks from list are:",high)
 
+#user input in list
+size = int(input("Enter the size of the list : "))
+list = []
+
+for i in range(size) :
+    item = int(input("Enter the value in list at %d index " %i))
+    list.append(item)
+
+print("User input list : ",list)
