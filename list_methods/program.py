@@ -1,15 +1,15 @@
 fname = ["Kinza"]
 lname = ["Qamar", "Zaman"]
 
-#Append Method
+# Append Method
 fname.append("Qamar")
 print("List fname after append : ",fname)
 
-#Concatenate
+# Concatenate
 fname.extend(lname)
 print("List fname after extend : ",fname)
 
-#Sort
+# Sort
 lname.sort(reverse=True) #sort the list in increasing order
 print("List lname after sort : ",lname)
 
@@ -37,3 +37,10 @@ print("List fname after remove : ",fname)
 
 name = fname + lname 
 print("List name after concatenation : ",name)
+
+name[3:5] = []
+print("name : ", name)
+
+name = []
+name = [fname , lname]
+print("\nname : ", name)
